@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "HelloWorld",
-    "slug": "expo-template-default",
+    "name": "unite.",
+    "slug": "unite",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/icon.png",
@@ -9,13 +9,15 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.pmkhamorg.unite"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.pmkhamorg.unite"
     },
     "web": {
       "bundler": "metro",
@@ -36,6 +38,18 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "47dfbc10-4326-45b9-a910-b718526075c0"
+      }
+    },
+    "owner": "pmkham-org",
+    "updates": {
+      "url": "https://u.expo.dev/47dfbc10-4326-45b9-a910-b718526075c0"
+    },
+    "runtimeVersion": {
+      "policy": "appVersion"
     }
   }
 }
